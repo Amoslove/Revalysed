@@ -190,4 +190,19 @@
   }
 
 }
+@media(max-width:25em){
+  input[type='search']{
+    width: 300px;
+    padding: 1.7rem;
+    text-align: left;
+  }
+  .text-banner{
+    font-size: .6rem;
+  }
+
+  .banner-text{
+    font-size: 25px;
+  }
+
+}
 
