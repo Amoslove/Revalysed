@@ -179,3 +179,15 @@
   }
 }
 
+@media(max-width:33em){
+  input[type='search']{
+    width: 400px;
+    padding: 1.7rem;
+    text-align: left;
+  }
+  .text-banner{
+    font-size: .8rem;
+  }
+
+}
+
