@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  gap: 1.2rem;
+}
+.grid--1-col {
+  grid-template-columns: 1fr;
+  padding: 1.6rem;
+}
+
+.grid--2-col {
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.6rem;
+  row-gap: 1.9rem;
+  column-gap: 1.9rem;
+}
+.grid--4-col {
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1.6rem;
+  row-gap: 1.9rem;
+  column-gap: 1.9rem;
+}
+
+.grid--6-col {
+  grid-template-columns: repeat(6, 1fr);
+  padding: 1.6rem;
+  row-gap: 1.9rem;
+  column-gap: 1.9rem;
+}
+.section-header {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-left: 2rem;
+  color: #333;
+}
+
